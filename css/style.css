@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  padding: 50px 40px;
+}
+body {
+  background: #000;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+nav a {
+  color: #ffffffa9;
+  text-decoration: none;
+  font-size: 19px;
+}
+.header-text input {
+  background-color: #0a060665;
+  color: #fff;
+  border-radius: 5px;
+}
+/* ! Baki */
+#baki {
+  padding: 60px 0;
+}
+.baki-text {
+  align-items: center;
+}
+.baki {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.baki-text h1 {
+  color: #fff;
+  width: 400px;
+  font-size: 85px;
+}
+.baki-text p {
+  font-family: Nunito Sans;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: -0.6565263867378235px;
+  text-align: left;
+  width: 500px;
+  margin: 40px 0;
+  color: #fff;
+}
+.baki-text button {
+  background: #5454d4;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+}
+.baki img {
+  width: 908px;
+  height: 813px;
+  top: 180px;
+  left: 674px;
+  gap: 0px;
+  opacity: 0px;
+}
+img {
+  max-height: 750px;
+}
+/* ! BAki end*/
+/* ! since start */
+.text h1 {
+  width: 85%;
+  margin: 0 auto;
+  width: 600px;
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  gap: 50%;
+}
+.box {
+  width: 270px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  display: inline-block;
+  padding: 30px 50px;
+}
+.box h1 {
+  padding-block: 23px;
+  font-size: 28px;
+  color: #fff;
+}
+.box p {
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+/* ! service end */
+.pix-text h1 {
+  font-size: 48px;
+  color: #fff;
+  margin: 50px 0 60px 0;
+}
+.contact-text {
+  padding-block: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-text h1 {
+  width: 700px;
+  font-size: 60px;
+  color: #fff;
+}
+.contact-text button {
+  padding: 10px 33px;
+  background: #5454d4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 21px;
+}
+.header-text p {
+  color: #fff;
+}
+header .container {
+  gap: 100px;
+}
